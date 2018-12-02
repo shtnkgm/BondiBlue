@@ -1,4 +1,4 @@
-# BondiBlue
+<img src="https://github.com/shtnkgm/BondiBlue/blob/master/Design/bondi_blue_banner.png?raw=true" width="100%">
 
 [![Swift Version](https://img.shields.io/badge/Swift-4-F16D39.svg)](https://developer.apple.com/swift)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/shtnkgm/BondiBlue)
