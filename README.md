@@ -37,7 +37,7 @@ class ViewController: UIViewController {
  - Run pod update.
 
 ## Requirements
- - iOS 12.1 or later
+ - iOS 10.0 or later
 
 ## Contributing
 Pull requests and stars are always welcome.
