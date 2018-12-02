@@ -9,12 +9,12 @@
 Pod::Spec.new do |spec|
 
   spec.name           = "BondiBlue"
-  spec.version        = "1.0.4"
+  spec.version        = "1.0.5"
   spec.summary        = "UIColor Extension of BondiBlue Color"
   spec.homepage       = "https://github.com/shtnkgm/BondiBlue"
   spec.license        = { :type => 'MIT', :file => 'LICENSE' }
   spec.author         = "shtnkgm"
-  spec.platform       = :ios, "12.1"
+  spec.platform       = :ios, "10.0"
   spec.swift_version  = "4.2"
   spec.source         = { :git => "https://github.com/shtnkgm/BondiBlue.git", :tag => "#{spec.version}" }
   spec.source_files   = "BondiBlue/**/*.swift"

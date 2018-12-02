@@ -15,6 +15,9 @@
 		972C78EF21B3EEA800E950E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972C78EE21B3EEA800E950E0 /* Assets.xcassets */; };
 		972C78F221B3EEA800E950E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972C78F021B3EEA800E950E0 /* LaunchScreen.storyboard */; };
 		972C78F821B3EFE800E950E0 /* BondiBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972C78D421B3EC2E00E950E0 /* BondiBlue.framework */; };
+		972C78FA21B4170F00E950E0 /* BondiBlue.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 972C78F921B4170F00E950E0 /* BondiBlue.podspec */; };
+		972C78FC21B4171700E950E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 972C78FB21B4171700E950E0 /* README.md */; };
+		972C78FE21B4171D00E950E0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 972C78FD21B4171C00E950E0 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		972C78EE21B3EEA800E950E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972C78F121B3EEA800E950E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		972C78F321B3EEA800E950E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972C78F921B4170F00E950E0 /* BondiBlue.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BondiBlue.podspec; sourceTree = "<group>"; };
+		972C78FB21B4171700E950E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		972C78FD21B4171C00E950E0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 		972C78CA21B3EC2E00E950E0 = {
 			isa = PBXGroup;
 			children = (
+				972C78FB21B4171700E950E0 /* README.md */,
+				972C78FD21B4171C00E950E0 /* LICENSE */,
+				972C78F921B4170F00E950E0 /* BondiBlue.podspec */,
 				972C78D621B3EC2E00E950E0 /* BondiBlue */,
 				972C78E621B3EEA700E950E0 /* Demo */,
 				972C78D521B3EC2E00E950E0 /* Products */,
@@ -191,6 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972C78FE21B4171D00E950E0 /* LICENSE in Resources */,
+				972C78FC21B4171700E950E0 /* README.md in Resources */,
+				972C78FA21B4170F00E950E0 /* BondiBlue.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
