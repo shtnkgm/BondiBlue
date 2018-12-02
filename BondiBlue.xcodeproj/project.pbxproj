@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		972C78D921B3EC2E00E950E0 /* BondiBlue.h in Headers */ = {isa = PBXBuildFile; fileRef = 972C78D721B3EC2E00E950E0 /* BondiBlue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972C78E021B3EC7C00E950E0 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C78DF21B3EC7C00E950E0 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		972C78D421B3EC2E00E950E0 /* BondiBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BondiBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972C78D721B3EC2E00E950E0 /* BondiBlue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BondiBlue.h; sourceTree = "<group>"; };
 		972C78D821B3EC2E00E950E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972C78DF21B3EC7C00E950E0 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				972C78D721B3EC2E00E950E0 /* BondiBlue.h */,
+				972C78DF21B3EC7C00E950E0 /* UIColor+.swift */,
 				972C78D821B3EC2E00E950E0 /* Info.plist */,
 			);
 			path = BondiBlue;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					972C78D321B3EC2E00E950E0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972C78E021B3EC7C00E950E0 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		972C78DD21B3EC2E00E950E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shotanakagami.BondiBlue;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		972C78DE21B3EC2E00E950E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
